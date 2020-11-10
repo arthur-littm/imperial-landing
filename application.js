@@ -4,7 +4,7 @@ window.addEventListener('scroll', (e) => {
   anchors.forEach((anchor) => {
     const topPos = anchor.getBoundingClientRect().top + window.scrollY;
     console.log(anchor, topPos)
-    if (window.scrollY >= topPos) {
+    if (window.scrollY + 16 >= topPos) {
       const links = document.querySelectorAll('.navigation-link')
       links.forEach((l) => { l.classList.remove('active')})
       const link = document.querySelector(`a[href='#${anchor.id}']`)
