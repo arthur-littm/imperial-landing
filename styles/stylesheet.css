@@ -1,0 +1,104 @@
+.home-banner {
+  background-color: #2D2E8E;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-banner hr {
+  border-color: white;
+}
+
+.home-banner .container {
+  position: relative;
+}
+
+.home-banner .illustration {
+  position: absolute;
+  bottom: -300px;
+  right: -300px;
+  width: 700px;
+}
+
+.logos {
+  background-color: #002147;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logos img:first-child {
+  border-right: 1px solid white;
+}
+
+.btn-red {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  background-color: #DD2501;
+  vertical-align: middle;
+  user-select: none;
+  padding: 12px 48px;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 2px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-red:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #CA2100;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .home-banner .illustration {
+    position: absolute;
+    bottom: -250px;
+    right: -300px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 576px) {
+  .home-banner .illustration {
+    position: absolute;
+    bottom: -300px;
+    right: -400px;
+    width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-banner .illustration {
+    position: absolute;
+    bottom: -300px;
+    right: -350px;
+    width: 700px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-banner .illustration {
+    position: absolute;
+    bottom: -300px;
+    right: -300px;
+    width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-banner .illustration {
+    position: absolute;
+    bottom: -300px;
+    right: -300px;
+    width: 700px;
+  }
+}
