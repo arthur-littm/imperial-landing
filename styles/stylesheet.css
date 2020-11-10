@@ -31,7 +31,7 @@ html {
   left: 0;
 }
 
-.logos img:first-child {
+.logos a:first-child {
   border-right: 1px solid white;
 }
 
