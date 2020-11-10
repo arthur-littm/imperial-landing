@@ -86,8 +86,8 @@ i {
 
 .user-img {
   object-fit: cover;
-  width:   240px !important;
-  height:  300px !important;
+  width:   140px !important;
+  height:  180px !important;
 
 }
 
@@ -100,6 +100,19 @@ i {
   background-color: #DD2501;
   color: white;
 }
+
+.navigation .navigation-link {
+  font-weight: bold;
+  opacity: .2;
+  color: #002147;
+}
+
+.navigation .navigation-link.active {
+  font-weight: bold;
+  opacity: 1;
+}
+
+
 @media (min-width: 100px) and (max-width: 575px) {
   .home-banner .illustration {
     position: absolute;
