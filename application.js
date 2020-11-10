@@ -1,10 +1,8 @@
-console.log('hi')
-
 const anchors = document.querySelectorAll('.anchor');
 
 window.addEventListener('scroll', (e) => {
   anchors.forEach((anchor) => {
-    console.log(window.pageYOffset)
+    // console.log(anchor, anchor.offsetTop)
     if (window.pageYOffset >= anchor.offsetTop) {
       const links = document.querySelectorAll('.navigation-link')
       links.forEach((l) => { l.classList.remove('active')})
