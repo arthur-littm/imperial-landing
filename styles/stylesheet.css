@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .home-banner {
   background-color: #2D2E8E;
   color: white;
