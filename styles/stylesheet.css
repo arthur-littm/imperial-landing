@@ -84,6 +84,13 @@ i {
   opacity: 1;
 }
 
+.user-img {
+  object-fit: cover;
+  width:   240px !important;
+  height:  300px !important;
+
+}
+
 .nav-pills .nav-link {
   color: #002147;
   opacity: .2;
