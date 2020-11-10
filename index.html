@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Imperial Data Science Launchpad with Le Wagon</title>
+  <title>Imperial College Data Science Course</title>
   <meta name="description" content="Change you life, learn data science. In 10 intensive weeks, learn Data Science from Python to advanced Machine Learning, code your own data applications and boost your career.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
   <div class="home-banner">
@@ -18,11 +19,331 @@
       </div>
       <div class="row justify-content-center py-5">
         <div class="col-12 col-lg-7 text-center py-5">
-          <h1>Imperial Data Science Launchpad with Le Wagon</h1>
+          <h1>Imperial College Data Science Course</h1>
           <hr class="my-4">
           <h2 class="mb-4">Change your life, learn Data Science.</h2>
           <p class="mb-5">In 10 intensive weeks, learn Data Science from Python to advanced Machine Learning, code your own data applications and boost your career.</p>
-          <a href="#apply" class='btn-red'>Apply</a>
+          <a href="#apply" class='btn btn-red btn-lg'>Apply</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-3">
+    <div class="row">
+      <div class="col-12 col-md-5 col-lg-3">
+        <div class="key-info py-3 px-4 box-shadow mb-3">
+          <h4 class="mb-4">Key Information</h4>
+          <p>Duration: <strong>10 weeks</strong></p>
+          <p>Dates:
+            <br><strong>2 January 2021</strong>
+            <br><strong>3 April 2021</strong>
+          </p>
+          <p>Location: <strong>Online course</strong></p>
+          <p>Fees: <strong>£9.950</strong></p>
+        </div>
+
+        <div class="navigation sticky-top p-3 box-shadow mb-4">
+          <div>
+            <a href="#overview" class="active">Course Overview</a>
+          </div>
+          <div>
+            <a href="#curriculum" class="active">Curriculum</a>
+          </div>
+          <div>
+            <a href="#typical" class="active">A Typical Day</a>
+          </div>
+          <div>
+            <a href="#program" class="active">Program Directors & Teachers</a>
+          </div>
+          <div>
+            <a href="#apply" class='btn btn-red w-100'>Apply</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-7 col-lg-9">
+
+        <div id="overview">
+          <h2>Course Overview</h2>
+          <img src="images/datascience.jpg" alt="" class="w-100 mb-3">
+          <p>Imperial College London's Continuing Professional Department (CPD) & the Data Science Institute (DSI), are excited to be working with the world's no.1 ranked coding bootcamp. You can now learn all the basics to become a Data Science in just 10 weeks, full time, fully remote.</p>
+          <p>Our full-time Data Science course gives you the skills you need to launch your career in a data science team in only 10 weeks. From Pandas to Deep Learning, you will finish the course knowing how to explore, clean and transform data into actionable insights and how to implement Machine Learning models from start to finish in a production environment, working in teams with the best-in-class tool belt.</p>
+        </div>
+
+        <div id="curriculum">
+          <h2>Curriculum</h2>
+          <p>Our course is designed to make you learn Data Science step by step, starting with the basic data toolkit in Python and Mathematics to the complete implementation and deployment cycle of Machine Learning algorithms.</p>
+
+          <ul class="nav nav-pills mb-3 flex-nowrap align-items-center text-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="admission-tab" data-toggle="tab" href="#admission" role="tab" aria-controls="admission" aria-selected="true">Admission</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="data-analysis-tab" data-toggle="tab" href="#data-analysis" role="tab" aria-controls="data-analysis" aria-selected="false">Data Analysis</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="data-science-tab" data-toggle="tab" href="#data-science" role="tab" aria-controls="data-science" aria-selected="false">Data Science</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="machine-learning-tab" data-toggle="tab" href="#machine-learning" role="tab" aria-controls="machine-learning" aria-selected="false">Machine Learning</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="deep-learning-tab" data-toggle="tab" href="#deep-learning" role="tab" aria-controls="deep-learning" aria-selected="false">Deep Learning</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="data-engineering-tab" data-toggle="tab" href="#data-engineering" role="tab" aria-controls="data-engineering" aria-selected="false">Data Engineering</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">Project Weeks</a>
+            </li>
+          </ul>
+          <div class="tab-content mb-4" id="myTabContent">
+            <div class="tab-pane fade show active" id="admission" role="tabpanel" aria-labelledby="admission-tab">
+              <div class="card p-3 bg-white">
+                <p>
+                  <strong><i class="fas fa-rocket"></i> Start the course prepared!</strong>
+                </p>
+                <p>Our Data Science course is very intense. To save time and nail it from the beginning, our students must complete an online preparation work before starting the bootcamp. This work takes around 40 hours and covers the basics of Python, the pre-requisite language of the course, and some mathematical topics used every day by data scientists.</p>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="data-analysis" role="tabpanel" aria-labelledby="data-analysis-tab">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fab fa-python"></i> Python for Data Science</strong>
+                    </p>
+                    <p>Learn programming in Python, how to work with Jupyter Notebook and to use powerful Python libraries like Pandas and NumPy to explore and analyze big data sets. Collect data from various sources, including CSV files, SQL queries on relational databases, Google Big Query, APIs and Web scraping.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-database"></i> Relational Database & SQL</strong>
+                    </p>
+                    <p>Learn how to formulate a good question and how to answer it by building the right SQL query. This module will cover schema architecture and then dive deep into the advanced manipulation of SELECT to extract useful information from a stand-alone database or using a SQL client software like DBeaver.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-chart-area"></i> Data Visualization</strong>
+                    </p>
+                    <p>Make your data analyses more visual and understandable by including data visualizations in your Notebook. Learn how to plot your data frames using Python libraries such as <a target="_blank" href="https://matplotlib.org/">matplotlib</a> and <a target="_blank" href="https://seaborn.pydata.org/">seaborn</a> and transform your data into actionable insights.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-square-root-alt"></i> Statistics, Probability, Linear Algebra</strong>
+                    </p>
+                    <p>Understand the underlying math behind all the libraries and models used in the bootcamp. Become comfortable with the basic concepts of statistics & probabilities (mean, variance, random variable, Bayes’s Theorem, etc.) and with matrix computation, at the core of numerical operations in libraries like Pandas and Numpy.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="data-science" role="tabpanel" aria-labelledby="data-science-tab">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-wave-square"></i> Statistical inferences</strong>
+                    </p>
+                    <p>You'll learn how to structure a Python repository with object-oriented programming in order to clean your code and make it re-usable, how to survive the data preparation phase of a vast dataset, and how to find and interpret meaningful statistical results based on multivariate regression models.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-bullhorn"></i> Communication</strong>
+                    </p>
+                    <p>Data analysts are meant to communicate their findings to non-technical audiences: You will learn how to create impact by explaining your technical insights and turn them into business decisions using cost/benefits analysis. You'll be able to share your progress, present and compare your results to your teammates.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="machine-learning" role="tabpanel" aria-labelledby="machine-learning-tab">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-wave-square"></i> Preprocessing and Supervised Learning</strong>
+                    </p>
+                    <p>Learn how to explore, clean, and prepare your dataset through preprocessing techniques like vectorization. Get familiar with the classic models of supervised learning - linear and logistic regressions. Learn how to solve prediction and classification tasks with the Python library scikit-learn using learning algorithms like KNN (k-nearest neighbors).</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-bullhorn"></i> Generalization and Overfitting</strong>
+                    </p>
+                    <p>Implement training and testing phases to make sure your model can be generalised to unseen data and deployed in production with predictable accuracy. Learn how to prevent overfitting using regularization methods and how to chose the right loss function to improve your model's accuracy.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-wave-square"></i> Performance Metrics</strong>
+                    </p>
+                    <p>Evaluate your model's performance by defining what to optimise and the right error metrics in order to assess your business impact. Improve your model's performance with validation methods such as cross validation or hyperparameter tuning. Finally, discover a powerful supervised learning method called SVM (Support Vector Machines).</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-bullhorn"></i> Unsupervised Learning & Advanced Methods</strong>
+                    </p>
+                    <p>Move to unsupervised learning and implement methods like PCA for dimensionality reduction or clustering for discovering groups in a data set. Complete your toolbelt with ensemble method that combine other models to improve performance, such as Random Forest or Gradient Boosting.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="deep-learning" role="tabpanel" aria-labelledby="deep-learning-tab">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="far fa-image"></i> Managing Images and Text data</strong>
+                    </p>
+                    <p>Get comfortable into managing high-dimensional variables and transforming them into manageable input. Learn classic preprocessing techniques for images like normalization, standardization and whitening. Apply the right type of encodings to prepare your text data for different NLP tasks (Natural Language Processing).</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-project-diagram"></i> Neural Networks</strong>
+                    </p>
+                    <p>Understand the architecture of neural networks (neurons, layers, stacks) and their parameters (activation functions, loss function, optimizer). Become autonomous to build your own networks like Convolutional Neural Networks (for images), Recurrent Neural Networks (for time-series) and Natural Language Processing networks (for text).</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-brain"></i> Deep Learning with Keras</strong>
+                    </p>
+                    <p>Discover a new library called <a href="https://keras.io/" target="_blank">keras</a>, which is a developer-friendly wrapper over <a href="https://www.tensorflow.org/" target="_blank">tensorflow</a>, a Deep Learning library created by Google. We'll teach you the fundamental techniques to build your first deep learning model with Keras.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="far fa-eye"></i> Computer Vision</strong>
+                    </p>
+                    <p>Go further into computer vision with Deep Learning building networks for object detection and recognition. Implement advanced techniques like data augmentation to augment your training set by computing image perturbations (random crops, intensity changes etc) in order to improve your model's generalization.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="data-engineering" role="tabpanel" aria-labelledby="data-engineering-tab">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-filter"></i> Machine Learning Pipeline</strong>
+                    </p>
+                    <p>Move from Jupyter Notebook to a code editor and learn how to setup a machine learning project in the right way in order to quickly and confidently iterate. Learn how to convert a machine learning model into a model with a robust and scalable pipeline with sklearn-pipeline using encoders and transformers.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-sync-alt"></i> Machine Learning workflow with MLflow</strong>
+                    </p>
+                    <p>Building a machine learning model from start to finish requires a lot of data preparation, experimentation, iteration and tuning. We'll teach you how to do your feature engineering and hyperparameter tuning in order to build the best model. For this, we will leverage a library called MLflow.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="card p-3 mb-3 bg-white">
+                    <p>
+                      <strong><i class="fas fa-cloud"></i> Deploying to production with Google Cloud Platform</strong>
+                    </p>
+                    <p>Finally, we'll show you how to deploy your code and model to production. Using Google Cloud AI Platform, you'll be able to train your model at scale, package it and make it available to the world. Cherry on top, you will use a Docker environment to deploy your own RESTful Flask API which could be plugged to any front-end interface.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+              <div class="card p-3 mb-3 bg-white">
+                <p>
+                  <strong><i class="fas fa-lightbulb"></i> Student Projects</strong>
+                </p>
+                <p>You'll spend the last two weeks on a group project working on an exciting data science problem you want to solve! As a team, you'll learn how to collaborate efficiently on a real data science project through a common Python repository and the Git flow. You will use a mix of your own datasets (if you have any from your company / non-profit organisation) and open-data <a href="https://datasetsearch.research.google.com/" target="_blank">repositories</a> (Government initiatives, Kaggle, etc.). It will be a great way to practise all the tools, techniques and methodologies covered in the Data Science Course and will make you realize how autonomous you have become.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="typical">
+          <h2>A Typical Day</h2>
+          <p>From morning lectures to evening recaps, every day is action-packed.</p>
+
+          <div class="card p-3 mb-3">
+            <div class="d-flex justify-content-between mb-3">
+              <strong>Lecture</strong>
+              <span class="text-muted">
+                9:00am - 10:30am
+              </span>
+            </div>
+            <p>Grab a coffee and start every morning with an engaging & interactive lecture, before putting what you’ve learnt into practice.</p>
+          </div>
+
+          <div class="card p-3 mb-3">
+            <div class="d-flex justify-content-between mb-3">
+              <strong>Challenges</strong>
+              <span class="text-muted">
+                10:30am - 4:30pm
+              </span>
+            </div>
+            <p>Pair up with your buddy for the day, and work on a series of programming challenges with the help of our teaching staff.</p>
+          </div>
+
+          <div class="card p-3 mb-3">
+            <div class="d-flex justify-content-between mb-3">
+              <strong>Recap</strong>
+              <span class="text-muted">
+                5:00pm - 6:00pm
+              </span>
+            </div>
+            <p>Review the day’s challenges and get an overview of upcoming lessons during live code sessions.</p>
+          </div>
+        </div>
+
+        <div id="program">
+          <h2>Program Directors & Teachers</h2>
+          <p>TODO</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="apply" class="apply-banner py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <h2 class="text-center">Apply to Data Science Launchpad</h2>
+          <form action="#" class="py-5">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Phone number">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Linkedin url">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="4" placeholder="Motivation"></textarea>
+            </div>
+          </form>
         </div>
       </div>
     </div>
