@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  color: #006EAF;
+}
+
 .home-banner {
   background-color: #2D2E8E;
   color: white;
@@ -120,7 +124,26 @@ i {
   opacity: 1;
 }
 
+footer {
+  background-color: #002147;
+  color: white;
+}
 
+.badge {
+  color: white;
+}
+
+.badge-talk {
+  background-color:  #006EAF;
+}
+
+.badge-workshop {
+  background-color:  #006EAF;
+}
+
+.event span {
+  color: #DD2501;
+}
 @media (min-width: 100px) and (max-width: 575px) {
   .home-banner .illustration {
     position: absolute;
