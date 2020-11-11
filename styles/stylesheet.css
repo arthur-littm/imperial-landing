@@ -82,6 +82,10 @@ i {
   background-color: #EBEEEE !important;
 }
 
+.nav-pills {
+  overflow: scroll;
+}
+
 .nav-pills .nav-link.active {
   background-color: #002147;
   color: white;
