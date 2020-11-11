@@ -1,9 +1,38 @@
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('../fonts/NeueHaasUnicaPro-Light.woff');
+    font-weight: lighter;
+    font-style: lighter;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('../fonts/NeueHaasUnicaPro-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: url('../fonts/NeueHaasUnicaPro-Bold.woff');
+    font-weight: bold;
+    font-style: bold;
+}
+
 html {
   scroll-behavior: smooth;
+}
+body {
+  font-family: 'Neue Haas Unica' !important;
 }
 
 a {
   color: #006EAF;
+}
+
+h1, h2, h3 ,h4 {
+  font-weight: bold;
 }
 
 .home-banner {
