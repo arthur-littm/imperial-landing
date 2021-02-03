@@ -495,7 +495,8 @@
         <div class='anchor' id="info">
           <h2 class="mb-3">Course info</h2>
 
-            <p>Want to know more about the course? <strong><a class="link" data-toggle="modal" data-target="#syllabusModal">Request our syllabus here</a>.</strong></p>
+            <p>Want to know more about the course?</p>
+            <a class="btn btn-dark" data-toggle="modal" data-target="#syllabusModal">Request our syllabus here</a>
 
             <hr>
 
@@ -503,8 +504,31 @@
             <p>Dates:</p>
             <ul>
               <li><strong>12 April 2021</strong> - <strong>18 June 2021</strong></li>
-              <li><strong>12 July 2021</strong> - <strong>18 September 2021</strong></li>
+              <li><strong>12 July 2021</strong> - <strong>18 September 2021</strong> (<a href="#" class="link" data-toggle="modal" data-target="#interestModal">Register interest</a>)</li>
             </ul>
+
+            <!-- Modal -->
+            <div class="modal fade" id="interestModal" tabindex="-1" role="dialog" aria-labelledby="interestModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <h2 class="mb-3">Register interest for our July course.</h2>
+                    <!--[if lte IE 8]>
+                    <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+                    <![endif]-->
+                    <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2.js"></script>
+                    <script>
+                      hbspt.forms.create({
+                      portalId: "4419217",
+                      formId: "585ef5de-a603-467f-af79-449716e7be4f"
+                    });
+                    </script>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
 
             <p>Location: <strong>Online course</strong> (Live teaching)</p>
             <p>Format: <br><strong>9.00 – 18.30</strong> (full-time)</p>
